@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Forms</title>
+  </head>
+  <body>
+    <b>
+    <form class="First" action="index.html" method="post">
+      <table  bgcolor='lightpink' border="5" align="center"  cellpadding='3'cellspacing="20">
+        <tr align='center'>
+          <td><label for="f_name">Enter your First-name : </label></td>
+          <td><input type="text" name="f_name" value=""></td>
+        </tr>
+        <tr align='center'>
+          <td><label for="l_name" required>Enter your Last-name : </label></td>
+          <td><input type="text" name="l_name" value=""></td>
+        </tr>
+        <tr align='center'>
+          <td><label for="pass" required>Enter Password : </label></td>
+          <td><input type="password" name="pass" value=""></td>
+        </tr>
+        <tr align='center'>
+          <td><label for="sch">Search Google : </label></td>
+          <td><input type="search" name="sch" value=""></td>
+        </tr>
+        <tr align='center'>
+          <td><label for="email">E-mail : </label></td>
+          <td><input type="email" name="email" value=""></td>
+        </tr>
+        <tr align='center'>
+          <td><label for="date">Select the Date : </label></td>
+          <td><input type="date" name="date" value=""></td>
+        </tr>
+        <tr align='center'>
+          <td><label for="f">Select File : </label></td>
+          <td><input type="file" name="f" value=""></td>
+        </tr>
+        <tr align='center'>
+          <td><label for="url">Enter URL : </label></td>
+          <td ><input type="url" name="url" value=""></td>
+        </tr>
+
+
+        <tr>
+          <td align='center'><label for="lan">Languages Known : </label></td>
+          <td>
+            <form class="" action="index.html" method="post">
+              <table align='center'>
+                  <tr>
+                    <td><input type="radio" name="ht" single></td>
+                    <td><label for="ht">HTML</label></td>
+                  </tr>
+                  <tr>
+                    <td><input type="radio" name="py" value=""></td>
+                    <td><label for="py">PYTHON</label></td>
+                  </tr>
+                  <tr>
+                    <td><input type="radio" name="j" value=""></td>
+                    <td><label for="j">JAVA</label></td>
+                  </tr>
+                  <tr>
+                    <td><input type="radio" name="ja" value=""></td>
+                    <td><label for="ja">Java - Script</label></td>
+                  </tr>
+              </table>
+            </form>
+          </td>
+        </tr>
+        <tr>
+          <td align='center'><input type="submit" value="Submit"></td>
+          <td align='center'><input type="reset" value="Reset" ></td>
+        </tr>
+
+        <tr>
+          <td align='center'><label>Message : </label></td>
+          <td><textarea  rows="8" cols="80"></textarea></td>
+        </tr>
+      </table>
+    </form>
+    </b>
+  </body>
+</html>
