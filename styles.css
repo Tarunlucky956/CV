@@ -1,0 +1,141 @@
+body {
+  margin: auto;
+  text-align: center;
+  font-family: 'Merriweather',serif;
+}
+
+
+.first{
+  background-color: #E4F9F5;
+  padding-top: 200px;
+  position: relative;
+}
+
+.second {
+  background-color: #E4F9F5;
+}
+
+.third {
+  background-color: #E4F9F5;
+  padding: 50px 0 20px;
+}
+.link {
+  color: red;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: red;
+}
+
+h1 {
+  margin: 50px;
+  color : #66BFBF;
+  font-family: 'Sacramento',cursive;
+  font-size: 5.625rem;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  border: dotted aqua ;
+  border-width: 8px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.contact {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.web {
+  margin: auto;
+  width: 30%;
+}
+
+.link {
+  color: #11999E;
+}
+
+
+.hrt {
+  height: 150px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+p{
+  line-height: 2;
+}
+
+.comp {
+  width: 25%;
+  border-radius: 500px;
+  float: left;
+  margin-right: 30px;
+}
+.chilli {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.top {
+  position: absolute;
+  right: 200px;
+  top: 100px;
+}
+.bot {
+  position: absolute;
+  left:200px;
+}
+.mount {
+  position: relative;
+}
+
+
+.btn {
+	background-color:#427bed;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #2f6627;
+}
+.btn:hover {
+	background-color:#1893f2;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+.lic {
+  padding: 20px 0;
+  color: #66BFBF;
+  font-size: 0.75rem;
+}
